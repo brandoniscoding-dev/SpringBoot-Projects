@@ -33,19 +33,19 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
 ## Installation
 1. Clonez ce repository :
     ```bash
-    git clone https://github.com/votre-utilisateur/nom-du-projet.git
+    git clone https://github.com/brandoniscoding-dev/shops.git
     ```
 
 2. Accédez au répertoire du projet :
     ```bash
-    cd nom-du-projet
+    cd shops
     ```
 
 3. Modifiez la configuration de la base de données dans `src/main/resources/application.properties` :
     ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/nom_de_la_base_de_données
-    spring.datasource.username=nom_utilisateur
-    spring.datasource.password=mot_de_passe
+    spring.datasource.url=jdbc:mysql://localhost:3306/shop_db
+    spring.datasource.username=root
+    spring.datasource.password=
     ```
 
 4. Compilez le projet en utilisant Maven :
